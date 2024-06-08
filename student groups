@@ -1,0 +1,20 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    /* Enter your code here. Read input from STDIN. Print output to STDOUT */ int a, x, y;
+  scanf("%d",&a);
+  if(a>=100&&a<=200) 
+  {
+    x=a/4;
+    y=a%4;
+    printf("%d\n%d\n%d\n%d", x, x, x, x+y) ;
+  }
+  else{
+    printf("INVALID INPUT") ;
+  }
+    return 0;
+}
